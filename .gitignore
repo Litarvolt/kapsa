@@ -1,0 +1,65 @@
+# Java / Maven
+# ==============================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven Wrapper
+# NO ignoramos:
+# .mvn/
+# mvnw
+# mvnw.cmd
+#
+# Estos archivos deben versionarse para garantizar
+# una versión reproducible de Maven.
+
+
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+
+# Visual Studio Code
+# ==============================
+.vscode/
+
+
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+# Mantenemos el ejemplo de variables de entorno para referencia
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+
+# Logs
+# ==============================
+*.log
+logs/
+
+
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.swp
+*.swo
